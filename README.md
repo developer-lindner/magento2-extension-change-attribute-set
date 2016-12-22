@@ -1,14 +1,9 @@
-#Ibnab Magento 2 Extension Change Product Attribute Set
+#Change Product Attribute Set (forked from Ibnab and fixed for Magento2 v2.1.3 )
   * Download
-  * past in your folder app/code
+  * create folder 'Ibnab' in 'app/code' directory
+  * create folder 'ChangeAttributeSet' in 'app/code/Ibnab' directory
+  * paste everything in ChangeAttributeSet' directory
+
   * enable extension in app/etc/config.php by adding 'Ibnab_ChangeAttributeSet' => 1,
+  * or via command-line: php bin/magento module:enable Ibnab_ChangeAttributeSet
   * and execute the command php bin/magento setup:upgrade
-
-with composer :
-=======
-  * composer require ibnab/magento2-delete-orders:1.0.0
-  * enable extension in app/etc/config.php by adding 'Ibnab_ChangeAttributeSet' => 1,
-
-More Free Magento 2 Extensions :
-=======
-http://www.ibnab.com/en/resource or http://store.ibnab.com
